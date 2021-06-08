@@ -27,7 +27,7 @@ var carList = [
       ],
       seat: '7',
       isBooking: false,
-      imageAsset: 'img/mobil/avanza.jpg'),
+      imageAsset: 'mobil/avanza.jpg'),
   CarRent(
       merk: 'Grand New Xenia',
       tipe: 'minibus',
@@ -38,7 +38,7 @@ var carList = [
       ],
       seat: '7',
       isBooking: false,
-      imageAsset: 'img/mobil/Grand New Xenia.jpg'),
+      imageAsset: 'mobil/Grand New Xenia.jpg'),
   CarRent(
       merk: 'Honda Brio',
       tipe: 'City Car',
@@ -49,7 +49,7 @@ var carList = [
       ],
       seat: '4',
       isBooking: false,
-      imageAsset: 'img/mobil/Honda Brio.jpg'),
+      imageAsset: 'mobil/Honda Brio.jpg'),
   CarRent(
       merk: 'Honda Jazz',
       tipe: 'City Car',
@@ -60,7 +60,7 @@ var carList = [
       ],
       seat: '4',
       isBooking: false,
-      imageAsset: 'img/mobil/Honda Jazz.jpg'),
+      imageAsset: 'mobil/Honda Jazz.jpg'),
   CarRent(
       merk: 'Mitsubishi New Pajero Sport',
       tipe: 'SUV',
@@ -71,7 +71,7 @@ var carList = [
       ],
       seat: '7',
       isBooking: false,
-      imageAsset: 'img/mobil/Mitsubishi New Pajero.jpg'),
+      imageAsset: 'mobil/Mitsubishi New Pajero.jpg'),
   CarRent(
       merk: 'Suzuki Ertiga',
       tipe: 'minibus',
@@ -82,7 +82,7 @@ var carList = [
       ],
       seat: '7',
       isBooking: false,
-      imageAsset: 'img/mobil/Suzuki Ertiga.jpg'),
+      imageAsset: 'mobil/Suzuki Ertiga.jpg'),
   CarRent(
       merk: 'Toyota Hiace',
       tipe: 'Mikro Bus',
@@ -93,7 +93,7 @@ var carList = [
       ],
       seat: '15',
       isBooking: false,
-      imageAsset: 'img/mobil/Toyota Hiace.jpg'),
+      imageAsset: 'mobil/Toyota Hiace.jpg'),
   CarRent(
       merk: 'Toyota New Fortuner VRZ',
       tipe: 'SUV',
@@ -104,7 +104,7 @@ var carList = [
       ],
       seat: '7',
       isBooking: false,
-      imageAsset: 'img/mobil/Toyota New Fortuner VRZ.jpg'),
+      imageAsset: 'mobil/Toyota New Fortuner VRZ.jpg'),
   CarRent(
       merk: 'Toyota Yaris',
       tipe: 'City Car',
@@ -115,5 +115,5 @@ var carList = [
       ],
       seat: '4',
       isBooking: false,
-      imageAsset: 'img/mobil/Toyota Yaris.jpg'),
+      imageAsset: 'mobil/Toyota Yaris.jpg'),
 ];

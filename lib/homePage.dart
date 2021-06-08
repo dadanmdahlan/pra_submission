@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:car_rent/detailCar.dart';
 import 'package:car_rent/model/car.dart';
 
+var informationTextStyle = TextStyle(fontFamily:'Oxigen');
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -9,12 +10,12 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Kai Rent Car'),
       ),
-      body: CarList(),
+      body: CarGrid(),
     );
   }
 }
 
-class CarList extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {}
+class CarGrid extends StatelessWidget{
+  @override 
+  Widget build(BuildContext)
 }
