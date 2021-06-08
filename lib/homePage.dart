@@ -17,5 +17,21 @@ class HomePage extends StatelessWidget {
 
 class CarGrid extends StatelessWidget{
   @override 
-  Widget build(BuildContext)
+  Widget build(BuildContext context) {
+    return Padding(
+      padding : const EdgeInsets.all(24.0),
+      child: GridView.count(
+        crossAxisCount:2,
+        children:carList.map((car){
+          return InkWell(
+            onTap: () {
+              Navigator.push(context, MaterialPageRoute(builder:(context){
+                return detailCar(car:car);
+              }));
+            },
+          );
+        })
+        )  
+    );
+  }
 }
